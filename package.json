@@ -40,7 +40,6 @@
   },
   "peerDependencies": {
     "express": "4.x",
-    "passport": "0.x",
     "connect-flash": "0.x"
   }
 }
