@@ -1,5 +1,7 @@
-Permission is [Express](http://expressjs.com/) & [Passport](http://passportjs.org/)-compatible authorization
+Permission is [Express](http://expressjs.com/) -compatible authorization
 middleware for [Node.js](http://nodejs.org/). It provides customizable management of access control list (ACL).
+
+This branch removes the passport dependency, and expects the authenticated user to be saved on `req.session.user`
 
 ## Install
 
